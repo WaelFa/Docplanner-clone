@@ -1,26 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Liste from './liste'
 import './App.css';
-import Navigation from './navbar.js'
-import Paragraphs from './paragraphs.js'
-import Cards from './cards.js'
-import HealthPlatform from './biggest-health.js'
-import Improve from './improve.js'
-import Footer from './footer.js'
-import Post from './grid.js'
-
-function App() {
-  return (
-    <div className="App">
-      <Navigation />
-      <Paragraphs />
-      <Cards />
-      <HealthPlatform />
-      <Improve />
-      <Post/>
-      <Footer />
-    
-    </div>
-  );
+const tab=[
+  {
+      title:'titi',
+      par:'fhksfhksdf'
+  },
+  {
+      title:'cc',
+      par:'rrrrrrrr'
+  }
+]
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+       <Liste dina={tab} />
+       
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -1,281 +1,33 @@
-body {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-}
-/* nav bar style  */
-.logo-docplanner {
-    width: 268px;
-    height: 33px;
-}
-Nav {
-    height: 70px;
-    background-color: white !important;
-}
-/* nav bar style */
-
-/* paragraphs style */
-.health-experience h1 {
-    color: #00B39B;
-    font-size: 2.125rem;
+.App {
+  text-align: center;
 }
 
-.paragraphs {
-    
-    margin: auto;
-}
-.paragraphs p {
-    text-align: left;
-    color: #747474;
-    line-height: 1.75;
-    font-weight: 400;
-    font-size: 16px;
-}
-.health-experience * {
-    margin-top: 30px;
-}
-/* paragraphs style */
-
-/* cards style */
-.cards {
-    margin-top: 40px;
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.card1 {
-    margin: 10px;
-    border-radius: 10px;
-    overflow: hidden;
-    height: 390px;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.for-patients {
-    background-color: #00CCB1;
+.App-link {
+  color: #61dafb;
 }
 
-.for-doctors {
-    background-color: #3D83DF;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-
-.card1 p {
-    font-size: .875em;
-    font-weight: 400;
-    color: hsla(0, 0%, 100%, .7);
-}
-
-.card1 h5 {
-    font-weight: 300;
-    letter-spacing: .3px;
-    font-size: 1.625em;
-    color: #fff;
-    margin-top: .3em;
-}
-
-.card1 select {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    width: 175px;
-    height: 40px;
-    ;
-}
-
-.card1 div {
-    height: 305px !important;
-    display: flex;
-}
-
-.cards img {
-    height: 248.750px;
-    width: 397.5px;
-}
-select:nth-of-type(2){
- opacity : 0;
-}
-.global-company svg {
-    fill: #00BFA5;
-    height: 20px;
-    width: 135px;
-}
-
-.text {
-    font-size: 26px;
-    color: #00b39b;
-    margin-left: -4%;
-}
-
-.global-company * {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-@media only screen and (max-width: 920px) {
-    .global-company {
-        flex-direction: column;
-    }
-}
-/* cards style */
-
-/* health platform style */
-.healthcare-platform * {
-    margin-top: 40px;
-}
-
-.healthcare-platform h3 {
-    font-size: 2.125rem;
-    color: #00b39b;
-}
-
-.healthcare-platform p {
-    font-size: .875em;
-    font-weight: 400;
-    line-height: 1.7142857143;
-    color: #747474;
-}
-
-.complicated-part {
-    height: 600px;
-    background-image: url("bg.png");
-    background-repeat: no-repeat;
-    background-color: #D6F6F6;
-}
-
-.little-cards img {
-    height: 40px;
-    width: 40px;
-    margin: 0 auto;
-}
-
-.little-cards .card {
-    height: 250px;
-    width: 230px;
-    padding: 15px;
-    margin: 10px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .05);
-    height: 250px;
-    text-align: center;
-    padding: 15px;
-    font-size: .8125em;
-}
-
-.card h3 {
-    font-size: 1.8461538462em;
-    color: #00b39b;
-    margin: .5em 0;
-}
-
-.first-block {
-    display: flex;
-    flex-flow: column wrap;
-    height: 100%;
-    padding: 0px;
-    margin-top: 20px;
-}
-
-.second-block {
-    display: flex;
-    flex-flow: column wrap;
-    height: 100%;
-    padding: 0px;
-}
-
-.card p {
-    text-align: center;
-    padding: 15px;
-    font-size: .8125em;
-    color: #747474;
-    font-weight: 400;
-}
-
-/* health platform style */
-
-/* improve style */
-.improve-lifes {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 90px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.improve-lifes h1 {
-    font-size: 2.1428571429em;
-    color: #00b39b;
-    margin-top: 20px;
-}
-
-.improve-lifes p {
-    font-size: .875em;
-    line-height: 1.7142857143;
-    color: #747474;
-    font-weight: 400;
-    margin-top: 20px;
-}
-/* improve style */
-
-/* cards style  */
-.container1{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    grid-gap: 20px;
-    margin-bottom: 80px;
-}
-
-@media only screen and (max-width: 920px) {
-    .container1 {
-        display: flex;
-        flex: wrap;
-        padding: 10px;
-        margin-bottom: 80px;
-        height: 500px;
-    }
-    .container1 * {
-        margin-right: 20px;
-    }
-}
-
-.container1 h5 {
-    font-size: 1.125em;
-    font-weight: 400;
-    color: #747474;
-}
-
-.container1 a {
-    font-size: .625rem;
-    padding: 1em 1.5em;
-    border-radius: 4px;
-    font-weight: 700;
-    letter-spacing: .04em;
-    text-transform: uppercase;
-    height: 30px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.container1 .card-body {
-    display: flex;
-    justify-content: space-between;
-    height: 70px;
-}
-
-/* cards style  */
-
-/* Footer style */
-.main-footer {
-    border-top: 1px solid #eef2f2;
-    font-size: .75em;
-    color: #ababab;
-    text-align: center;
-    padding: 1em 0;
-    width: 100%;
-}
-
-.main-footer p {
-    line-height: 1.3;
-    font-weight: 400;
-    margin-bottom: .4em;
-    margin: 1.6em 0;
-}
-/* Footer style */
